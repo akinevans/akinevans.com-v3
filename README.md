@@ -1,3 +1,29 @@
+## TODO:
+
+### Components
+
+- [ ] Build Nav Component + desktop styling
+- [ ] Spacer Component + desktop styling
+- [ ] Hero Component + desktop styling
+- [ ] Projects Component + desktop styling
+- [ ] About Component + desktop styling
+- [ ] Contact Component + desktop styling
+
+### Styling
+
+- [ ] Implement responsive tablet view
+- [ ] Implement responsive mobile view
+- [ ] Add Navbar scroll
+- [ ] Add animations
+- [ ] Replace favicon
+
+### Logic
+
+- [ ] Build contact form
+- [ ] Build carousel for projects component
+- [ ] Add functionality for carousel buttons
+- [ ] Add functionality for resume download btn
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
