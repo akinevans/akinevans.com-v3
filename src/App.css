@@ -11,6 +11,8 @@
   --yellow: #fbe801;
   --title-font: "Bebas Neue", sans-serif;
   --body-font: "Poppins", sans-serif;
+  --full-width: 100vw;
+  --desktop-width: 1150px;
 }
 
 /* .App {
