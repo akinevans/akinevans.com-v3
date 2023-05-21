@@ -39,36 +39,60 @@ export default function Projects() {
       description: "Landing page for a meditation studio",
       stack: (
         <div>
-          <div>React</div>
-          <div>JavaScript</div>
-          <div>Vanilla CSS</div>
-          <div>Framer Motion</div>
+          <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>Vanilla CSS</li>
+            <li>Framer Motion</li>
+          </ul>
         </div>
       ),
     },
     {
       title: "SocialSync",
-      description: "Website for a messenger service",
+      description: "Website for an online messenger service",
       stack: (
         <div>
-          <div>React</div>
-          <div>JavaScript</div>
-          <div>Vanilla CSS</div>
-          <div>Framer Motion</div>
+          <ul>
+            <li>React</li>
+            <li>JavaScript</li>
+            <li>Vanilla CSS</li>
+            <li>Framer Motion</li>
+          </ul>
         </div>
       ),
     },
   ];
 
   function displayProjectInfo() {
-    return (
-      <div className='description'>
-        <h3 className='description-title'>{projectInfo[0].title}</h3>
-        <p>{projectInfo[0].description}</p>
-        <h3 className='techstack'>TECH STACK:</h3>
-        <p>{projectInfo[0].stack}</p>
-      </div>
-    );
+    // setInterval(prevSlide, 4000);
+    if (current === 0) {
+      return (
+        <div className='description-outer-wrapper'>
+          <div className='title-wrapper'>
+            <h3 className='description-title'>{projectInfo[0].title}</h3>
+            <p className='description-text'>{projectInfo[0].description}</p>
+          </div>
+          <div className='techstack-wrapper'>
+            <h3 className='techstack'>TECH STACK</h3>
+            <div className='tech-list'>{projectInfo[0].stack}</div>
+          </div>
+        </div>
+      );
+    } else if (current === length - 1) {
+      return (
+        <div className='description-outer-wrapper'>
+          <div className='title-wrapper'>
+            <h3 className='description-title'>{projectInfo[1].title}</h3>
+            <p className='description-text'>{projectInfo[1].description}</p>
+          </div>
+          <div className='techstack-wrapper'>
+            <h3 className='techstack'>TECH STACK</h3>
+            <div className='tech-list'>{projectInfo[1].stack}</div>
+          </div>
+        </div>
+      );
+    }
   }
 
   return (
@@ -110,6 +134,8 @@ export default function Projects() {
 
           {/* End slideshow wrapper */}
         </div>
+        {/* Auto change slides and provide appropriate text data */}
+        {/* {setInterval(prevSlide, 3000)} */}
         {displayProjectInfo()}
       </div>
     </div>
