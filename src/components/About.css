@@ -1,0 +1,119 @@
+.about-outer-wrapper,
+.about-inner-wrapper,
+.about-title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-outer-wrapper {
+  justify-content: center;
+  align-items: center;
+  width: var(--full-width);
+  height: 730px;
+  background-color: var(--black);
+  /* outline: 2px solid red; */
+}
+
+.about-inner-wrapper {
+  align-items: center;
+  width: var(--desktop-width);
+  height: 100%;
+  background-color: var(--black);
+  /* outline: 2px solid blue; */
+}
+
+.about-title-wrapper {
+  width: 100%;
+  height: fit-content;
+  /* outline: 2px solid blue; */
+}
+
+.about-title-wrapper img {
+  width: 276px;
+}
+
+.about-text-wrapper {
+  position: relative;
+  width: 600px;
+  /* height: fit-content; */
+  margin: 50px 0 30px 0;
+  padding: 0 0 14px 14px;
+  /* outline: 2px solid white; */
+}
+
+.highlight {
+  color: var(--yellow);
+}
+
+.about-text-wrapper p:nth-child(1) {
+  margin-top: 0;
+}
+
+.about-text-wrapper p:nth-child(2) {
+  margin-bottom: 0;
+}
+
+.about-text-wrapper p {
+  font-size: 24px;
+  color: var(--white);
+  font-family: var(--body-font);
+  letter-spacing: -0.3px;
+}
+
+.purple-border {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  border-bottom: 6px solid var(--purple);
+  border-left: 6px solid var(--purple);
+}
+
+.squiggle-line {
+  position: absolute;
+  bottom: -18px;
+  left: 0;
+}
+.btn-wrapper {
+  position: relative;
+  width: 160px;
+  height: 46px;
+  /* outline: 2px solid red; */
+}
+
+.resume-btn {
+  width: 162px;
+  height: 40px;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 0;
+  border: none;
+  outline: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  color: var(--black);
+  text-decoration: none;
+  font-family: var(--title-font);
+  background-color: var(--white);
+  transition: all 0.2s ease-out;
+}
+
+.resume-btn:hover {
+  color: var(--black);
+  background-color: var(--blue);
+  transition: all 0.2s ease-out;
+}
+
+.resume-btn:active {
+  color: var(--black);
+  background-color: var(--purple);
+  /* transition: all 0.2s ease-out; */
+}
+
+.resume-btn-underline {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 36px;
+}

@@ -6,7 +6,7 @@
 - [x] Spacer Component + desktop styling
 - [x] Hero Component + desktop styling
 - [x] Projects Component + desktop styling
-- [ ] About Component + desktop styling
+- [x] About Component + desktop styling
 - [ ] Contact Component + desktop styling
 
 ### Styling
@@ -23,7 +23,11 @@
 - [ ] Build contact form
 - [x] Build carousel for projects component
 - [x] Add functionality for carousel buttons
-- [ ] Add functionality for resume download btn
+- [x] Add functionality for resume download btn
+
+### Other
+
+- [ ] Upload resume to react project
 
 # Getting Started with Create React App
 

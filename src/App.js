@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Spacer from "./components/Spacer";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Spacer className='spacer small'></Spacer>
       <Projects />
       <Spacer className='spacer small'></Spacer>
+      <About />
+      <Spacer className='spacer large'></Spacer>
     </div>
   );
 }
