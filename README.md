@@ -7,7 +7,7 @@
 - [x] Hero Component + desktop styling
 - [x] Projects Component + desktop styling
 - [x] About Component + desktop styling
-- [ ] Contact Component + desktop styling
+- [x] Contact Component + desktop styling
 
 ### Styling
 

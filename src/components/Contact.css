@@ -1,0 +1,97 @@
+.contact-outer-wrapper,
+.contact-inner-wrapper,
+.contact-title-wrapper,
+.contact-icons-outer-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-outer-wrapper {
+  justify-content: center;
+  align-items: center;
+  width: var(--full-width);
+  height: 740px;
+  background-color: var(--black);
+  /* outline: 2px solid red; */
+}
+
+.contact-inner-wrapper {
+  align-items: center;
+  width: var(--desktop-width);
+  height: 100%;
+  background-color: var(--black);
+  /* outline: 2px solid blue; */
+}
+
+.contact-title-wrapper {
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 50px;
+  /* outline: 2px solid blue; */
+}
+
+.contact-title-wrapper img {
+  width: 358px;
+}
+
+/*& CONTACT FORM HERE */
+/*& CONTACT FORM HERE */
+/*& CONTACT FORM HERE */
+
+.contact-icons-outer-wrapper {
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 700px;
+  height: 120px;
+  border-bottom: 6px solid var(--white);
+  /* outline: 2px solid green; */
+}
+
+.contact-icons-outer-wrapper a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.email-wrapper img,
+.linkedin-wrapper img,
+.github-wrapper img,
+.twitter-wrapper img {
+  width: 70px;
+  height: 70px;
+  transition: all 0.3s ease-out;
+  /* outline: 2px solid green; */
+}
+
+.email-wrapper img:hover,
+.linkedin-wrapper img:hover,
+.github-wrapper img:hover,
+.twitter-wrapper img:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-out;
+}
+
+.icon-text {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  color: var(--white);
+  font-family: var(--title-font);
+  transition: all 0.3s ease-out;
+}
+
+.icon-text:hover {
+  color: var(--blue);
+  transition: all 0.3s ease-out;
+}
+
+.icon-text:active {
+  text-decoration: underline;
+}
+
+.purple-triangle {
+  position: absolute;
+  bottom: -28px;
+}
