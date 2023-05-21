@@ -9,9 +9,9 @@ function App() {
     <div className='App'>
       <Navbar />
       <Hero />
-      <Spacer className='spacer large'></Spacer>
+      <Spacer className='spacer small'></Spacer>
       <Projects />
-      <Spacer className='spacer large'></Spacer>
+      <Spacer className='spacer small'></Spacer>
     </div>
   );
 }

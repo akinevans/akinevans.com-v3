@@ -8,13 +8,13 @@
 
 /* IS this too large? */
 .large {
-  height: 390px;
+  height: 300px;
 }
 
 .medium {
-  height: 285px;
+  height: 200px;
 }
 
 .small {
-  height: 185px;
+  height: 100px;
 }
