@@ -1,12 +1,16 @@
 import React, { useState } from "react";
-import project_title from "../images/projects-title-dark-mode.svg";
-import left_btn from "../icons/left-arrow-dark-mode.svg";
-import right_btn from "../icons/right-arrow-dark-mode.svg";
-import meditate from "../images/meditate-the-world.png";
-import socialsync from "../images/socialsync.png";
+import project_title from "../assets/images/projects-title-dark-mode.svg";
+import left_btn from "../assets/icons/left-arrow-dark-mode.svg";
+import right_btn from "../assets/icons/right-arrow-dark-mode.svg";
+import meditate from "../assets/images/meditate-the-world.png";
+import socialsync from "../assets/images/socialsync.png";
 import "./Projects.css";
 
 export default function Projects() {
+  const meditatePath = "https://akinevans.github.io/meditate-the-world/";
+
+  const socialsyncPath = "https://akinevans.github.io/socialsync/";
+
   const slides = [
     {
       image: meditate,
@@ -70,7 +74,14 @@ export default function Projects() {
       return (
         <div className='description-outer-wrapper'>
           <div className='title-wrapper'>
-            <h3 className='description-title'>{projectInfo[0].title}</h3>
+            <a
+              href={meditatePath}
+              target='_blank'
+              rel='noreferrer'
+              className='description-title'
+            >
+              {projectInfo[0].title}
+            </a>
             <p className='description-text'>{projectInfo[0].description}</p>
           </div>
           <div className='techstack-wrapper'>
@@ -83,7 +94,14 @@ export default function Projects() {
       return (
         <div className='description-outer-wrapper'>
           <div className='title-wrapper'>
-            <h3 className='description-title'>{projectInfo[1].title}</h3>
+            <a
+              href={socialsyncPath}
+              target='_blank'
+              rel='noreferrer'
+              className='description-title'
+            >
+              {projectInfo[1].title}
+            </a>
             <p className='description-text'>{projectInfo[1].description}</p>
           </div>
           <div className='techstack-wrapper'>

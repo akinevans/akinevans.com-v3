@@ -107,11 +107,20 @@
 
 .description-title,
 .techstack {
-  color: var(--yellow);
+  margin: 0 0 10px 0;
+  color: var(--blue);
   font-family: var(--title-font);
   font-size: 25px;
-  margin: 0 0 10px 0;
   font-weight: 400;
+}
+
+.description-title {
+  text-decoration: none;
+  cursor: pointer;
+}
+.description-title:hover {
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 .description-text {

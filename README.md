@@ -17,6 +17,7 @@
 - [ ] Add animations
 - [ ] Replace favicon
 - [ ] Fix nav active underline issue
+- [ ] Add small modal to Projects component to highlight website link
 
 ### Logic
 

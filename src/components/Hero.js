@@ -1,10 +1,10 @@
 import React from "react";
-import akin from "../images/akin-evans-vector-dark-mode.svg";
-import frontend from "../images/front-end-vector-dark-mode.svg";
-import developer from "../images/developer-vector-dark-mode.svg";
-import profile_image from "../images/profile-image.png";
-import semicircle from "../images/profile-pic-semicircle.svg";
-import red_triangle from "../icons/red-triangles.svg";
+import akin from "../assets/images/akin-evans-vector-dark-mode.svg";
+import frontend from "../assets/images/front-end-vector-dark-mode.svg";
+import developer from "../assets/images/developer-vector-dark-mode.svg";
+import profile_image from "../assets/images/profile-image.png";
+import semicircle from "../assets/images/profile-pic-semicircle.svg";
+import red_triangle from "../assets/icons/red-triangles.svg";
 import "./Hero.css";
 
 export default function Hero() {
