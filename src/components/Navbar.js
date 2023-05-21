@@ -15,7 +15,12 @@ export default function Navbar() {
           <a href='/#' className='nav-link'>
             ABOUT
           </a>
-          <a href='/#' className='nav-link'>
+          <a
+            href='https://github.com/akinevans'
+            target='_blank'
+            rel='noreferrer'
+            className='nav-link'
+          >
             GITHUB
           </a>
           <a href='/#' className='nav-link'>
