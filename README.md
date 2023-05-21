@@ -5,7 +5,7 @@
 - [x] Build Nav Component + desktop styling
 - [x] Spacer Component + desktop styling
 - [x] Hero Component + desktop styling
-- [ ] Projects Component + desktop styling
+- [x] Projects Component + desktop styling
 - [ ] About Component + desktop styling
 - [ ] Contact Component + desktop styling
 
@@ -21,8 +21,8 @@
 ### Logic
 
 - [ ] Build contact form
-- [ ] Build carousel for projects component
-- [ ] Add functionality for carousel buttons
+- [x] Build carousel for projects component
+- [x] Add functionality for carousel buttons
 - [ ] Add functionality for resume download btn
 
 # Getting Started with Create React App

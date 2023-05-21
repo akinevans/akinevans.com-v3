@@ -3,11 +3,12 @@
 .spacer {
   background-color: var(--black);
   width: var(--full-width);
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
+/* IS this too large? */
 .large {
-  height: 385px;
+  height: 390px;
 }
 
 .medium {
