@@ -31,6 +31,46 @@ export default function Projects() {
     return null;
   }
 
+  //! Write Logic for dynamically showing info for projects slideshow
+
+  const projectInfo = [
+    {
+      title: "MEDITATE THE WORLD",
+      description: "Landing page for a meditation studio",
+      stack: (
+        <div>
+          <div>React</div>
+          <div>JavaScript</div>
+          <div>Vanilla CSS</div>
+          <div>Framer Motion</div>
+        </div>
+      ),
+    },
+    {
+      title: "SocialSync",
+      description: "Website for a messenger service",
+      stack: (
+        <div>
+          <div>React</div>
+          <div>JavaScript</div>
+          <div>Vanilla CSS</div>
+          <div>Framer Motion</div>
+        </div>
+      ),
+    },
+  ];
+
+  function displayProjectInfo() {
+    return (
+      <div className='description'>
+        <h3 className='description-title'>{projectInfo[0].title}</h3>
+        <p>{projectInfo[0].description}</p>
+        <h3 className='techstack'>TECH STACK:</h3>
+        <p>{projectInfo[0].stack}</p>
+      </div>
+    );
+  }
+
   return (
     <div className='projects-outer-wrapper'>
       <div className='projects-inner-wrapper'>
@@ -70,12 +110,7 @@ export default function Projects() {
 
           {/* End slideshow wrapper */}
         </div>
-        <div className='description'>
-          <h3>{}</h3>
-          <p>{}</p>
-          <h3>TECH STACK:</h3>
-          <p>{}</p>
-        </div>
+        {displayProjectInfo()}
       </div>
     </div>
   );

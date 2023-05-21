@@ -74,3 +74,31 @@
   transform: scale(1.15);
   transition: all 0.2s ease-out;
 }
+
+.description {
+  color: var(--white);
+  width: 200px;
+  height: fit-content;
+  margin: -20px 0 0 75px;
+  float: left;
+  /* outline: 2px solid red; */
+}
+
+.description-title,
+.techstack {
+  color: var(--yellow);
+  font-family: var(--title-font);
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  font-weight: 400;
+}
+
+.techstack {
+  color: var(--white);
+}
+
+.description p {
+  font-family: var(--body-font);
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
