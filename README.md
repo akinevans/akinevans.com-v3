@@ -16,6 +16,7 @@
 - [ ] Add Navbar scroll
 - [ ] Add animations
 - [ ] Replace favicon
+- [ ] Fix nav active underline issue
 
 ### Logic
 

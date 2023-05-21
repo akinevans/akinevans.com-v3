@@ -44,3 +44,14 @@
   color: var(--blue);
   transition: color 0.3s ease-out;
 }
+
+/*^ Underline SVG needs fixing */
+.active {
+  /* background-image: url("../icons/nav-underline.svg");
+  background-repeat: no-repeat;
+  background-position: bottom; */
+  text-decoration: underline;
+  text-decoration-color: var(--blue);
+  text-decoration-thickness: 4px;
+  text-underline-offset: 6px;
+}

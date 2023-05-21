@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className='nav-outer-wrapper'>
       <div className='nav-inner-wrapper'>
         <div className='nav-link-wrapper'>
-          <a href='/#' className='nav-link'>
+          <a href='/#' className='nav-link active'>
             HOME
           </a>
           <a href='/#' className='nav-link'>
