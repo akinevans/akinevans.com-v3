@@ -2,9 +2,9 @@
 
 ### Components
 
-- [ ] Build Nav Component + desktop styling
+- [x] Build Nav Component + desktop styling
 - [ ] Spacer Component + desktop styling
-- [ ] Hero Component + desktop styling
+- [x] Hero Component + desktop styling
 - [ ] Projects Component + desktop styling
 - [ ] About Component + desktop styling
 - [ ] Contact Component + desktop styling
