@@ -7,7 +7,7 @@ import "./About.css";
 
 export default function About() {
   return (
-    <article className='about-outer-wrapper'>
+    <article className='about-outer-wrapper' id='about-component'>
       <div className='about-inner-wrapper'>
         <div className='about-title-wrapper'>
           <img src={about_title} alt='about' />

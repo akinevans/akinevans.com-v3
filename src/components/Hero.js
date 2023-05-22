@@ -9,7 +9,7 @@ import "./Hero.css";
 
 export default function Hero() {
   return (
-    <section className='hero-outer-wrapper'>
+    <section className='hero-outer-wrapper' id='hero-component'>
       <div className='hero-inner-wrapper'>
         <div className='hero-textSVG-wrapper'>
           <img src={akin} alt='akin' />

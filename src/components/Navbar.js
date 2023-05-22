@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -6,15 +7,39 @@ export default function Navbar() {
     <nav className='nav-outer-wrapper'>
       <div className='nav-inner-wrapper'>
         <div className='nav-link-wrapper'>
-          <a href='/#' className='nav-link active'>
+          <Link
+            to='hero-component'
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={800}
+            href='/#'
+            className='link nav-link'
+          >
             HOME
-          </a>
-          <a href='/#' className='nav-link'>
+          </Link>
+          <Link
+            to='projects-component'
+            spy={true}
+            smooth={true}
+            offset={-25}
+            duration={800}
+            href='/#'
+            className='link nav-link'
+          >
             PROJECTS
-          </a>
-          <a href='/#' className='nav-link'>
+          </Link>
+          <Link
+            to='about-component'
+            spy={true}
+            smooth={true}
+            offset={-75}
+            duration={800}
+            href='/#'
+            className='link nav-link'
+          >
             ABOUT
-          </a>
+          </Link>
           <a
             href='https://github.com/akinevans'
             target='_blank'
@@ -23,9 +48,17 @@ export default function Navbar() {
           >
             GITHUB
           </a>
-          <a href='/#' className='nav-link'>
+          <Link
+            to='contact-component'
+            spy={true}
+            smooth={true}
+            offset={-260}
+            duration={800}
+            href='/#'
+            className='link nav-link'
+          >
             CONTACT
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

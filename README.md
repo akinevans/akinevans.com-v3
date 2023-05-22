@@ -13,7 +13,7 @@
 
 - [ ] Implement responsive tablet view
 - [ ] Implement responsive mobile view
-- [ ] Add Navbar scroll
+- [x] Add Navbar scroll
 - [ ] Add animations
 - [ ] Replace favicon
 - [ ] Fix nav active underline issue

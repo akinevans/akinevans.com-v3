@@ -9,7 +9,7 @@ import "./Contact.css";
 
 export default function Contact() {
   return (
-    <footer className='contact-outer-wrapper'>
+    <footer className='contact-outer-wrapper' id='contact-component'>
       <div className='contact-inner-wrapper'>
         <div className='contact-title-wrapper'>
           <img src={contact_title} alt='' />

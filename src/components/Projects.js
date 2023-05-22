@@ -25,10 +25,12 @@ export default function Projects() {
 
   const nextSlide = () => {
     setCurrent(current === length - 1 ? 0 : current + 1);
+    // displayProjectInfo();
   };
 
   const prevSlide = () => {
     setCurrent(current === 0 ? length - 1 : current - 1);
+    // displayProjectInfo();
   };
 
   if (!Array.isArray(slides) || slides.length <= 0) {
@@ -69,7 +71,7 @@ export default function Projects() {
   ];
 
   function displayProjectInfo() {
-    // setInterval(prevSlide, 4000);
+    // setInterval(prevSlide, 3000);
     if (current === 0) {
       return (
         <div className='description-outer-wrapper'>
@@ -114,7 +116,7 @@ export default function Projects() {
   }
 
   return (
-    <div className='projects-outer-wrapper'>
+    <div className='projects-outer-wrapper' id='projects-component'>
       <div className='projects-inner-wrapper'>
         <div className='projects-title-wrapper'>
           <img src={project_title} alt=' project title' />
