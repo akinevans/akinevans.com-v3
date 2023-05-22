@@ -126,6 +126,7 @@ export default function Projects() {
             className='left-btn'
             onClick={prevSlide}
           />
+          {/* Webpage Images */}
           {slides.map((slide, index) => {
             return (
               <div
@@ -154,6 +155,7 @@ export default function Projects() {
         </div>
         {/* Auto change slides and provide appropriate text data */}
         {/* {setInterval(prevSlide, 3000)} */}
+
         {displayProjectInfo()}
       </div>
     </div>

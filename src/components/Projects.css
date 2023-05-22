@@ -115,12 +115,14 @@
 }
 
 .description-title {
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 4px;
   cursor: pointer;
 }
+
 .description-title:hover {
+  color: var(--white);
   text-decoration: underline;
-  text-underline-offset: 6px;
 }
 
 .description-text {

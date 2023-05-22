@@ -41,7 +41,7 @@
 }
 
 .nav-link:hover {
-  color: var(--yellow);
+  color: var(--blue);
   transition: color 0.3s ease-out;
 }
 
