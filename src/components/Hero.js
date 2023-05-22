@@ -17,7 +17,7 @@ export default function Hero() {
             className='akinevans'
             initial={{ opacity: 0, y: 100 }}
             animate={{ y: 0, x: 0, opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 0.6, delay: 0 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 0 }}
           >
             <img src={akin} alt='akin' />
           </motion.div>
@@ -25,7 +25,7 @@ export default function Hero() {
             className='frontend'
             initial={{ opacity: 0, y: 100 }}
             animate={{ y: 0, x: 0, opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 0.6, delay: 0.2 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 0.2 }}
           >
             <img src={frontend} alt='frontend' />
           </motion.div>
@@ -33,7 +33,7 @@ export default function Hero() {
             className='developer'
             initial={{ opacity: 0, y: 100 }}
             animate={{ y: 0, x: 0, opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 0.6, delay: 0.4 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 0.4 }}
           >
             <img src={developer} alt='developer' />
           </motion.div>
@@ -41,7 +41,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 0.6, delay: 1 }}
+          transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
         >
           <img
             className='profile-picture'
@@ -53,7 +53,7 @@ export default function Hero() {
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 0.6, delay: 1.4 }}
+          transition={{ ease: "easeOut", duration: 0.8, delay: 1.6 }}
         >
           <img
             className='red-triangle'
