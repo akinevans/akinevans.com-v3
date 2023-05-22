@@ -11,7 +11,8 @@
   position: fixed;
   width: var(--full-width);
   height: 70px;
-  background-color: var(--black);
+  background-color: #000000c2;
+  backdrop-filter: blur(18px);
   z-index: 999;
   /* outline: 2px solid red; */
 }
@@ -19,7 +20,7 @@
 .nav-inner-wrapper {
   width: var(--desktop-width);
   height: 100%;
-  background-color: var(--black);
+  /* background-color: var(--black); */
   /* outline: 2px solid blue; */
 }
 
