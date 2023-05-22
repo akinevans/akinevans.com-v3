@@ -1,3 +1,7 @@
+# [www.akinevans.com](https://www.akinevans.com)
+
+![akinevans](./src/assets/images/akinevans-website.png)
+
 ## TODO:
 
 ### Components
