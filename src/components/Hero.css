@@ -33,11 +33,13 @@
 .hero-textSVG-wrapper img:nth-child(1) {
   width: 560px;
   height: 123px;
+  margin-bottom: 2px;
 }
 
 .hero-textSVG-wrapper img:nth-child(2) {
   width: 526.42px;
   height: 123px;
+  margin-bottom: 2px;
 }
 
 .hero-textSVG-wrapper img:nth-child(3) {
