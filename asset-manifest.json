@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/akinevans.com-v3/static/css/main.9735b0e2.css",
+    "main.css": "/akinevans.com-v3/static/css/main.c2be8384.css",
     "main.js": "/akinevans.com-v3/static/js/main.08bd0e20.js",
     "static/js/787.fb3662bf.chunk.js": "/akinevans.com-v3/static/js/787.fb3662bf.chunk.js",
     "static/media/meditate-the-world.png": "/akinevans.com-v3/static/media/meditate-the-world.ca0587e0956248ee2e26.png",
@@ -25,12 +25,12 @@
     "static/media/left-arrow-dark-mode.svg": "/akinevans.com-v3/static/media/left-arrow-dark-mode.f4216d700cfee38eb9368a07fc9c78f9.svg",
     "static/media/right-arrow-dark-mode.svg": "/akinevans.com-v3/static/media/right-arrow-dark-mode.9698313055aba3a8fe282131aa4d12ae.svg",
     "static/media/resume-btn-underline.svg": "/akinevans.com-v3/static/media/resume-btn-underline.fdf393fe714d866e4bdc7a9e2cae4377.svg",
-    "main.9735b0e2.css.map": "/akinevans.com-v3/static/css/main.9735b0e2.css.map",
+    "main.c2be8384.css.map": "/akinevans.com-v3/static/css/main.c2be8384.css.map",
     "main.08bd0e20.js.map": "/akinevans.com-v3/static/js/main.08bd0e20.js.map",
     "787.fb3662bf.chunk.js.map": "/akinevans.com-v3/static/js/787.fb3662bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9735b0e2.css",
+    "static/css/main.c2be8384.css",
     "static/js/main.08bd0e20.js"
   ]
 }
