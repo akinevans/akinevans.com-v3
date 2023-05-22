@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 import project_title from "../assets/images/projects-title-dark-mode.svg";
 import left_btn from "../assets/icons/left-arrow-dark-mode.svg";
 import right_btn from "../assets/icons/right-arrow-dark-mode.svg";
@@ -129,23 +130,28 @@ export default function Projects() {
             onClick={prevSlide}
           />
           {/* Webpage Images */}
-          {slides.map((slide, index) => {
-            return (
-              <div
-                className={index === current ? "slide active" : "slide"}
-                key={index}
-              >
-                {index === current && (
-                  <img
-                    src={slide.image}
-                    alt='slideshow of websites in portfolio'
-                    className='image'
-                  />
-                )}
-              </div>
-            );
-          })}
-
+          <motion.div
+            initial={{ x: 120, opacity: 0 }}
+            animate={{ x: [120, -20, 0], opacity: 1 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 2 }}
+          >
+            {slides.map((slide, index) => {
+              return (
+                <div
+                  className={index === current ? "slide active" : "slide"}
+                  key={index}
+                >
+                  {index === current && (
+                    <img
+                      src={slide.image}
+                      alt='slideshow of websites in portfolio'
+                      className='image'
+                    />
+                  )}
+                </div>
+              );
+            })}
+          </motion.div>
           <img
             src={right_btn}
             alt='right arrow button'
