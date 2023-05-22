@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/akinevans.com-v3/static/css/main.9735b0e2.css",
+    "main.js": "/akinevans.com-v3/static/js/main.08bd0e20.js",
+    "static/js/787.fb3662bf.chunk.js": "/akinevans.com-v3/static/js/787.fb3662bf.chunk.js",
+    "static/media/meditate-the-world.png": "/akinevans.com-v3/static/media/meditate-the-world.ca0587e0956248ee2e26.png",
+    "static/media/profile-image.png": "/akinevans.com-v3/static/media/profile-image.99a289ce392aeb89d5d2.png",
+    "static/media/socialsync.png": "/akinevans.com-v3/static/media/socialsync.b24867b5bc30f5638802.png",
+    "static/media/Placeholder.pdf": "/akinevans.com-v3/static/media/Placeholder.d50688bdf557ee1a7b48.pdf",
+    "static/media/github.svg": "/akinevans.com-v3/static/media/github.a35f9ea518c51a22e4260eaa9fb3e780.svg",
+    "static/media/projects-title-dark-mode.svg": "/akinevans.com-v3/static/media/projects-title-dark-mode.35770ddb26504b8ccd73e97ba98c4e23.svg",
+    "static/media/contact-title-dark-mode.svg": "/akinevans.com-v3/static/media/contact-title-dark-mode.4655721d25ef60509a09c5c272d84eb7.svg",
+    "static/media/developer-vector-dark-mode.svg": "/akinevans.com-v3/static/media/developer-vector-dark-mode.c92745226aebc8070a2cde9435819b6e.svg",
+    "static/media/front-end-vector-dark-mode.svg": "/akinevans.com-v3/static/media/front-end-vector-dark-mode.687713028f3365db5f43508cbc8fa86f.svg",
+    "static/media/akin-evans-vector-dark-mode.svg": "/akinevans.com-v3/static/media/akin-evans-vector-dark-mode.2fe7cd0868747baf0f844ff398d4c7e0.svg",
+    "static/media/about-title-dark-mode.svg": "/akinevans.com-v3/static/media/about-title-dark-mode.6513b390e577ee8fb83a4b30a35f3135.svg",
+    "static/media/about-me-squiggle-dark-mode.svg": "/akinevans.com-v3/static/media/about-me-squiggle-dark-mode.bc12e566f8b7b305a6ef83357746a34f.svg",
+    "static/media/email-icon.svg": "/akinevans.com-v3/static/media/email-icon.f36d1023c8f7565f619a07e9474e6aaa.svg",
+    "static/media/twitter.svg": "/akinevans.com-v3/static/media/twitter.8f29568f6577d18fdd8ac97798d13e1f.svg",
+    "index.html": "/akinevans.com-v3/index.html",
+    "static/media/linkedin.svg": "/akinevans.com-v3/static/media/linkedin.bfa53b62c6ced0d4f0ae62d6f6832b85.svg",
+    "static/media/red-triangles.svg": "/akinevans.com-v3/static/media/red-triangles.77a4794b7bbd3f5a45efcc2a6bfa3d94.svg",
+    "static/media/contact-triangles.svg": "/akinevans.com-v3/static/media/contact-triangles.b088f22fcc0ba29017ecdf53abde29d1.svg",
+    "static/media/profile-pic-semicircle.svg": "/akinevans.com-v3/static/media/profile-pic-semicircle.c97ab966e108098e32a71b69c0496422.svg",
+    "static/media/left-arrow-dark-mode.svg": "/akinevans.com-v3/static/media/left-arrow-dark-mode.f4216d700cfee38eb9368a07fc9c78f9.svg",
+    "static/media/right-arrow-dark-mode.svg": "/akinevans.com-v3/static/media/right-arrow-dark-mode.9698313055aba3a8fe282131aa4d12ae.svg",
+    "static/media/resume-btn-underline.svg": "/akinevans.com-v3/static/media/resume-btn-underline.fdf393fe714d866e4bdc7a9e2cae4377.svg",
+    "main.9735b0e2.css.map": "/akinevans.com-v3/static/css/main.9735b0e2.css.map",
+    "main.08bd0e20.js.map": "/akinevans.com-v3/static/js/main.08bd0e20.js.map",
+    "787.fb3662bf.chunk.js.map": "/akinevans.com-v3/static/js/787.fb3662bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9735b0e2.css",
+    "static/js/main.08bd0e20.js"
+  ]
+}
