@@ -24,25 +24,41 @@
 
 .hero-textSVG-wrapper {
   align-items: flex-start;
-  width: 540px;
+  width: 545px;
   height: 75%;
-  border-bottom: 6px solid var(--blue);
+  padding-bottom: 5px;
+  animation: ease-out;
+  animation-name: underline;
+  animation-duration: 0.6s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+
+  /* border-bottom: 6px solid var(--blue); */
   /* outline: 2px solid green; */
 }
 
-.hero-textSVG-wrapper img:nth-child(1) {
+@keyframes underline {
+  0% {
+    border-bottom: 6px solid transparent;
+  }
+  100% {
+    border-bottom: 6px solid var(--blue);
+  }
+}
+
+.akinevans {
   width: 560px;
   height: 123px;
   margin-bottom: 2px;
 }
 
-.hero-textSVG-wrapper img:nth-child(2) {
+.frontend {
   width: 526.42px;
   height: 123px;
   margin-bottom: 2px;
 }
 
-.hero-textSVG-wrapper img:nth-child(3) {
+.developer {
   width: 541.76px;
   height: 122.4px;
 }
@@ -61,8 +77,8 @@
 }
 
 .profile-picture {
-  top: 33%;
-  right: 13.2%;
+  top: 32%;
+  right: 13.4%;
   width: 163px;
   border-radius: 50%;
   border: 6px solid var(--black);
@@ -70,8 +86,8 @@
 }
 
 .semicircle {
-  top: 49.5%;
-  right: 12.5%;
+  top: 48.2%;
+  right: 12.8%;
   z-index: 1;
 }
 
