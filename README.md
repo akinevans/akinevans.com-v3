@@ -14,9 +14,9 @@
 - [ ] Implement responsive tablet view
 - [ ] Implement responsive mobile view
 - [x] Add Navbar scroll
-- [ ] Add animations
+- [x] Add animations
 - [ ] Replace favicon
-- [ ] Fix nav active underline issue
+- [x] Fix nav active underline issue
 
 ### Logic
 

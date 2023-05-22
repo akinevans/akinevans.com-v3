@@ -15,7 +15,7 @@ export default function About() {
         </div>
         <div className='about-text-wrapper'>
           <p>
-            <span className='highlight'>Lorem ipsum </span> dolor sit amet,
+            <span className='highlight'>Placeholder text </span> dolor sit amet,
             consectetur adipisicing elit. Est animi amet vitae rerum quidem
             eius. Officiis asperiores cum explicabo eos quo veritatis, delectus
             modi distinctio qui, ullam alias fugiat vitae beatae commodi eveniet
