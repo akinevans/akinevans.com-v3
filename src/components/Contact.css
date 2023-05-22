@@ -95,3 +95,14 @@
   position: absolute;
   bottom: -28px;
 }
+
+.contact-credit {
+  margin: 60px auto 0;
+  color: var(--white);
+  font-size: 16px;
+  font-family: var(--body-font);
+}
+
+.heart {
+  font-size: 12px;
+}

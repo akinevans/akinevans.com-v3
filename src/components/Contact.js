@@ -58,6 +58,9 @@ export default function Contact() {
             alt='decorative'
           />
         </div>
+        <p className='contact-credit'>
+          Made with <span className='heart'>❤️</span> by Akin Evans
+        </p>
       </div>
     </footer>
   );
