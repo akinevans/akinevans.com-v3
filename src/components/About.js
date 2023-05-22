@@ -1,4 +1,5 @@
 import React from "react";
+import { motion } from "framer-motion";
 import about_title from "../assets/images/about-title-dark-mode.svg";
 import resume_btn_underline from "../assets/icons/resume-btn-underline.svg";
 import about_squiggle_line from "../assets/icons/about-me-squiggle-dark-mode.svg";
@@ -41,11 +42,21 @@ export default function About() {
           >
             Download Resume
           </a>
-          <img
+          <motion.div
             className='resume-btn-underline'
-            src={resume_btn_underline}
-            alt='decorative'
-          />
+            initial={{ x: 0 }}
+            animate={{
+              translateX: [0, -40, 0],
+              type: "spring",
+            }}
+            transition={{ duration: 3, repeat: Infinity }}
+          >
+            <img
+              className='resume-btn-underline'
+              src={resume_btn_underline}
+              alt='decorative'
+            />
+          </motion.div>
         </div>
       </div>
     </article>
