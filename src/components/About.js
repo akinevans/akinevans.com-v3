@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import about_title from "../assets/images/about-title-dark-mode.svg";
 import resume_btn_underline from "../assets/icons/resume-btn-underline.svg";
 import about_squiggle_line from "../assets/icons/about-me-squiggle-dark-mode.svg";
-import resume_doc from "../assets/Placeholder.pdf";
+import resume_doc from "../assets/AkinEvansResume.pdf";
 import "./About.css";
 
 export default function About() {
