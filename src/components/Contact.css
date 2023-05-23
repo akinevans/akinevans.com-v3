@@ -164,6 +164,6 @@
 
   .contact-icons-outer-wrapper {
     width: 90%;
-    outline: 2px solid green;
+    /* outline: 2px solid green; */
   }
 } /* Tablet View 800px; */
