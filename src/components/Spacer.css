@@ -6,7 +6,6 @@
   /* border: 2px solid red; */
 }
 
-/* IS this too large? */
 .large {
   height: 300px;
 }
@@ -17,4 +16,20 @@
 
 .small {
   height: 50px;
+}
+
+/** Tablet View 1000px; */
+
+@media (max-width: 1000px) {
+  .large {
+    height: 250px;
+  }
+
+  .medium {
+    height: 150px;
+  }
+
+  .small {
+    display: none;
+  }
 }
