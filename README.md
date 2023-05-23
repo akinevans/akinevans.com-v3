@@ -19,7 +19,7 @@
 - [ ] Implement responsive mobile view
 - [x] Add Navbar scroll
 - [x] Add animations
-- [ ] Replace favicon
+- [x] Replace favicon
 - [x] Fix nav active underline issue
 
 ### Logic

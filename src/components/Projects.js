@@ -115,7 +115,6 @@ export default function Projects() {
       );
     }
   }
-
   return (
     <div className='projects-outer-wrapper' id='projects-component'>
       <div className='projects-inner-wrapper'>
