@@ -130,6 +130,7 @@ export default function Projects() {
           />
           {/* Webpage Images */}
           <motion.div
+            className='webpage-wrapper'
             initial={{ x: 120, opacity: 0 }}
             animate={{ x: [120, -20, 0], opacity: 1 }}
             transition={{ ease: "easeOut", duration: 0.8, delay: 1.3 }}
@@ -137,7 +138,9 @@ export default function Projects() {
             {slides.map((slide, index) => {
               return (
                 <div
-                  className={index === current ? "slide active" : "slide"}
+                  className={
+                    index === current ? " slide projects-active" : " slide"
+                  }
                   key={index}
                 >
                   {index === current && (
