@@ -133,7 +133,7 @@ export default function Projects() {
           <motion.div
             initial={{ x: 120, opacity: 0 }}
             animate={{ x: [120, -20, 0], opacity: 1 }}
-            transition={{ ease: "easeOut", duration: 0.8, delay: 2 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 1.3 }}
           >
             {slides.map((slide, index) => {
               return (
