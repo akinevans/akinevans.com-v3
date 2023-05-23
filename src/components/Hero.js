@@ -39,6 +39,7 @@ export default function Hero() {
           </motion.div>
         </div>
         <motion.div
+          className='profile-pic-wrapper'
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
