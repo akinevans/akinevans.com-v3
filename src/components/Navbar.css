@@ -79,9 +79,14 @@
 /** Tablet View 650px; */
 
 @media (max-width: 650px) {
+  .nav-inner-wrapper {
+    width: 95%;
+    /* outline: 2px solid blue; */
+  }
+
   .nav-link-wrapper {
     justify-content: space-between;
-    width: 420px;
+    width: 85%;
     /* outline: 2px solid white; */
   }
 
@@ -95,8 +100,8 @@
 /** Tablet View 500px; */
 
 @media (max-width: 500px) {
-  .nav-link-wrapper {
-    width: 400px;
-    /* outline: 2px solid white; */
+  .nav-inner-wrapper {
+    width: 95%;
+    /* outline: 2px solid blue; */
   }
 } /* End Tablet View 500px; */

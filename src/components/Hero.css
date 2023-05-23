@@ -107,6 +107,16 @@
   right: 26.5%;
 }
 
+/** Tablet View 1150px; */
+
+@media (max-width: 1150px) {
+  .hero-inner-wrapper {
+    width: 100%;
+
+    /* outline: 2px solid blue; */
+  }
+}
+
 /** Tablet View 850px; */
 /** Tablet View 850px; */
 /** Tablet View 850px; */
