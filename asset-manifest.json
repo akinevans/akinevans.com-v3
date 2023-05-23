@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.a039366b.css",
-    "main.js": "/static/js/main.183c8588.js",
+    "main.js": "/static/js/main.d1d2daa3.js",
     "static/js/787.fb3662bf.chunk.js": "/static/js/787.fb3662bf.chunk.js",
     "static/media/meditate-the-world.png": "/static/media/meditate-the-world.ca0587e0956248ee2e26.png",
     "static/media/profile-image.png": "/static/media/profile-image.99a289ce392aeb89d5d2.png",
     "static/media/socialsync.png": "/static/media/socialsync.b24867b5bc30f5638802.png",
-    "static/media/Placeholder.pdf": "/static/media/Placeholder.d50688bdf557ee1a7b48.pdf",
+    "static/media/AkinEvansResume.pdf": "/static/media/AkinEvansResume.106a999ed247cf6cb086.pdf",
     "static/media/github.svg": "/static/media/github.a35f9ea518c51a22e4260eaa9fb3e780.svg",
     "static/media/projects-title-dark-mode.svg": "/static/media/projects-title-dark-mode.35770ddb26504b8ccd73e97ba98c4e23.svg",
     "static/media/contact-title-dark-mode.svg": "/static/media/contact-title-dark-mode.4655721d25ef60509a09c5c272d84eb7.svg",
@@ -26,11 +26,11 @@
     "static/media/right-arrow-dark-mode.svg": "/static/media/right-arrow-dark-mode.9698313055aba3a8fe282131aa4d12ae.svg",
     "static/media/resume-btn-underline.svg": "/static/media/resume-btn-underline.fdf393fe714d866e4bdc7a9e2cae4377.svg",
     "main.a039366b.css.map": "/static/css/main.a039366b.css.map",
-    "main.183c8588.js.map": "/static/js/main.183c8588.js.map",
+    "main.d1d2daa3.js.map": "/static/js/main.d1d2daa3.js.map",
     "787.fb3662bf.chunk.js.map": "/static/js/787.fb3662bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a039366b.css",
-    "static/js/main.183c8588.js"
+    "static/js/main.d1d2daa3.js"
   ]
 }
