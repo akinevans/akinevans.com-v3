@@ -278,6 +278,8 @@
   .hero-textSVG-wrapper {
     width: 270px;
     height: 200px;
+    animation: none;
+    border-bottom: 6px solid var(--blue);
     /* outline: 2px solid green; */
   }
 
