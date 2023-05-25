@@ -37,31 +37,33 @@ export default function Hero() {
           >
             <img src={developer} alt='developer' />
           </motion.div>
-        </div>
-        <motion.div
-          className='profile-pic-wrapper'
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
-        >
-          <img
+
+          <motion.img
             className='profile-picture'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
             src={profile_image}
             alt='Akin Evans'
           />
-          <img className='semicircle' src={semicircle} alt='Akin Evans' />
-        </motion.div>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
-        >
-          <img
+          <motion.img
+            className='semicircle'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
+            src={semicircle}
+            alt='Akin Evans'
+          />
+
+          <motion.img
             className='red-triangle'
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ ease: "easeOut", duration: 0.8, delay: 1 }}
             src={red_triangle}
             alt='red triangles'
           />
-        </motion.div>
+        </div>
       </div>
     </section>
   );
