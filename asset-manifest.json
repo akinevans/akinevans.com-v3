@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a039366b.css",
-    "main.js": "/static/js/main.57f28573.js",
+    "main.css": "/static/css/main.59c5401d.css",
+    "main.js": "/static/js/main.e484ae96.js",
     "static/js/787.fb3662bf.chunk.js": "/static/js/787.fb3662bf.chunk.js",
     "static/media/meditate-the-world.png": "/static/media/meditate-the-world.ca0587e0956248ee2e26.png",
     "static/media/profile-image.png": "/static/media/profile-image.99a289ce392aeb89d5d2.png",
@@ -25,12 +25,12 @@
     "static/media/left-arrow-dark-mode.svg": "/static/media/left-arrow-dark-mode.f4216d700cfee38eb9368a07fc9c78f9.svg",
     "static/media/right-arrow-dark-mode.svg": "/static/media/right-arrow-dark-mode.9698313055aba3a8fe282131aa4d12ae.svg",
     "static/media/resume-btn-underline.svg": "/static/media/resume-btn-underline.fdf393fe714d866e4bdc7a9e2cae4377.svg",
-    "main.a039366b.css.map": "/static/css/main.a039366b.css.map",
-    "main.57f28573.js.map": "/static/js/main.57f28573.js.map",
+    "main.59c5401d.css.map": "/static/css/main.59c5401d.css.map",
+    "main.e484ae96.js.map": "/static/js/main.e484ae96.js.map",
     "787.fb3662bf.chunk.js.map": "/static/js/787.fb3662bf.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a039366b.css",
-    "static/js/main.57f28573.js"
+    "static/css/main.59c5401d.css",
+    "static/js/main.e484ae96.js"
   ]
 }
