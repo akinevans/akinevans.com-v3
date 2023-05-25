@@ -15,8 +15,8 @@
 
 ### Styling
 
-- [ ] Implement responsive tablet view
-- [ ] Implement responsive mobile view
+- [x] Implement responsive tablet view
+- [x] Implement responsive mobile view
 - [x] Add Navbar scroll
 - [x] Add animations
 - [x] Replace favicon
@@ -32,7 +32,7 @@
 ### Other
 
 - [ ] Write content for About component
-- [ ] Upload resume to react project
+- [x] Upload resume
 - [ ] Add small modal to Projects component to highlight website link
 
 # Getting Started with Create React App
