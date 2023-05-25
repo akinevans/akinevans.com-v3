@@ -168,6 +168,11 @@
 /** Tablet View 1135px; */
 
 @media (max-width: 1135px) {
+  .projects-outer-wrapper {
+    height: 800px;
+    /* outline: 2px solid red; */
+  }
+
   .projects-inner-wrapper {
     width: 95%;
   }
@@ -244,6 +249,11 @@
 /** Mobile View 750px; */
 
 @media (max-width: 750px) {
+  .projects-outer-wrapper {
+    height: 675px;
+    /* outline: 2px solid red; */
+  }
+
   .projects-title-wrapper img {
     width: 250px;
   }
@@ -254,6 +264,10 @@
 /** Mobile View 600px; */
 
 @media (max-width: 600px) {
+  .projects-outer-wrapper {
+    height: 650px;
+    /* outline: 2px solid red; */
+  }
   .projects-title-wrapper img {
     width: 200px;
   }

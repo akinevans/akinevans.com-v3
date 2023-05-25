@@ -164,6 +164,9 @@
 /** Tablet View 770px; */
 
 @media (max-width: 770px) {
+  .hero-outer-wrapper {
+    height: 300px;
+  }
   .profile-picture {
     top: 32%;
     right: -25%;
