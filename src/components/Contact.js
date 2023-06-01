@@ -6,6 +6,7 @@ import linkedin_icon from "../assets/icons/linkedin.svg";
 import github_icon from "../assets/icons/github.svg";
 import twitter_icon from "../assets/icons/twitter.svg";
 import "./Contact.css";
+import Form from "./Form";
 
 export default function Contact() {
   return (
@@ -15,6 +16,7 @@ export default function Contact() {
           <img src={contact_title} alt='' />
         </div>
         {/* BUILD CONTACT FORM HERE */}
+        <Form />
         <div className='contact-icons-outer-wrapper'>
           <a
             className='email-wrapper'

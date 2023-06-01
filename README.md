@@ -24,7 +24,7 @@
 
 ### Logic
 
-- [ ] Build contact form
+- [x] Build contact form
 - [x] Build carousel for projects component
 - [x] Add functionality for carousel buttons
 - [x] Add functionality for resume download btn

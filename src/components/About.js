@@ -27,9 +27,9 @@ export default function About() {
             Aut maiores fugiat reprehenderit repudiandae ratione reiciendis
             soluta placeat, culpa laboriosam commodi quasi nobis repellat
             sapiente? Sed hic odio vel ut adipisci! Dicta sit deserunt amet
-            soluta cumque laudantium sequi velit consectetur dolores aliquid.
-            Ipsam unde quasi autem explicabo laudantium, quo sint in eum enim
-            nobis nisi, hic distinctio deleniti repellat eius eligendi.
+            onsectetur dolores aliquid. Ipsam unde quasi autem explicabo
+            laudantium, quo sint in eum enim nobis nisi, hic distinctio deleniti
+            repellat eius eligendi.
           </p>
           <div className='purple-border'></div>
           <img src={about_squiggle_line} alt='' className='squiggle-line' />
