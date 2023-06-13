@@ -15,22 +15,38 @@ export default function About() {
         </div>
         <div className='about-text-wrapper'>
           <p>
-            <span className='highlight'>Placeholder text </span> dolor sit amet,
-            consectetur adipisicing elit. Est animi amet vitae rerum quidem
-            eius. Officiis asperiores cum explicabo eos quo veritatis, delectus
-            modi distinctio qui, ullam alias fugiat vitae beatae commodi eveniet
-            rem, adipisci expedita! Possimus quasi accusamus, eum id quia ipsam
-            esse expedita necessitatibus iure!
+            <span className='highlight'>👋🏾 Hi, I’m Akin </span> (Ah-Keen), a
+            dedicated and passionate Front-End developer based in Southern
+            California. With a Certificate in Computer Programming from Moreno
+            Valley College and a bachelor's degree in Business, I bring a unique
+            blend of technical skills and business acumen to my work.
+          </p>
+          <p>
+            Throughout my career, I have honed my expertise in web development,
+            tech support, and assisting others. With over a decade of experience
+            in customer service, I have cultivated strong problem-solving
+            abilities, a keen eye for detail, and exceptional communication
+            skills. Currently, my primary focus is on building meaningful
+            applications that contribute to the betterment of the human
+            condition, while also empowering and educating others in the world
+            of technology.
+          </p>
+          <p>
+            Beyond my professional endeavors, I find joy in various activities.
+            I am an avid runner, participating in marathons for charities. I
+            also indulge my wanderlust by traveling to different parts of the
+            world. When I'm not coding or exploring, you can find me collecting
+            comic books and strumming away on my guitar.
+          </p>
+          <p>
+            With a comprehensive skill set encompassing front-end web
+            development, software engineering, tech support, customer service,
+            and problem-solving, I am well-equipped to tackle diverse challenges
+            and drive innovative solutions. I thrive on educating and guiding
+            others, fostering a collaborative environment that encourages growth
+            and learning.
           </p>
 
-          <p>
-            Aut maiores fugiat reprehenderit repudiandae ratione reiciendis
-            soluta placeat, culpa laboriosam commodi quasi nobis repellat
-            sapiente? Sed hic odio vel ut adipisci! Dicta sit deserunt amet
-            onsectetur dolores aliquid. Ipsam unde quasi autem explicabo
-            laudantium, quo sint in eum enim nobis nisi, hic distinctio deleniti
-            repellat eius eligendi.
-          </p>
           <div className='purple-border'></div>
           <img src={about_squiggle_line} alt='' className='squiggle-line' />
         </div>
