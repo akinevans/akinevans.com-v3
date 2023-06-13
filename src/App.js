@@ -15,7 +15,7 @@ function App() {
       <Projects />
       <Spacer className='spacer small'></Spacer>
       <About />
-      <Spacer className='spacer medium'></Spacer>
+      <Spacer className='spacer small'></Spacer>
       <Contact />
       <Spacer className='spacer large'></Spacer>
     </div>
