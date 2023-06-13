@@ -10,7 +10,7 @@
   justify-content: center;
   align-items: center;
   width: var(--full-width);
-  height: 740px;
+  height: fit-content;
   background-color: var(--black);
   /* outline: 2px solid red; */
 }
@@ -132,7 +132,6 @@
 @media (max-width: 1000px) {
   .contact-title-wrapper img {
     width: 290px;
-    /* outline: 2px solid blue; */
   }
 } /* Tablet View 1000px; */
 
@@ -142,7 +141,6 @@
 
 @media (max-width: 800px) {
   .contact-outer-wrapper {
-    /* height: 540px; */
     padding-top: 30px;
   }
 
@@ -158,8 +156,8 @@
 
 @media (max-width: 650px) {
   .contact-outer-wrapper {
-    height: 540px;
     padding-top: 200px;
+    height: fit-content;
   }
 
   .contact-icons-outer-wrapper {
