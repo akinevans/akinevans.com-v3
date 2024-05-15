@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.616dd19e.css",
-    "main.js": "/static/js/main.24c08a50.js",
+    "main.js": "/static/js/main.ae1a4138.js",
     "static/js/787.fb3662bf.chunk.js": "/static/js/787.fb3662bf.chunk.js",
     "static/media/meditate-the-world.png": "/static/media/meditate-the-world.ca0587e0956248ee2e26.png",
     "static/media/profile-image.png": "/static/media/profile-image.99a289ce392aeb89d5d2.png",
@@ -26,11 +26,11 @@
     "static/media/right-arrow-dark-mode.svg": "/static/media/right-arrow-dark-mode.9698313055aba3a8fe282131aa4d12ae.svg",
     "static/media/resume-btn-underline.svg": "/static/media/resume-btn-underline.fdf393fe714d866e4bdc7a9e2cae4377.svg",
     "main.616dd19e.css.map": "/static/css/main.616dd19e.css.map",
-    "main.24c08a50.js.map": "/static/js/main.24c08a50.js.map",
+    "main.ae1a4138.js.map": "/static/js/main.ae1a4138.js.map",
     "787.fb3662bf.chunk.js.map": "/static/js/787.fb3662bf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.616dd19e.css",
-    "static/js/main.24c08a50.js"
+    "static/js/main.ae1a4138.js"
   ]
 }
